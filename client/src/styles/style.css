@@ -1,0 +1,59 @@
+html {
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  padding: 5vw;
+}
+
+body {
+  font-family: inherit;
+  background: white;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  overflow: auto;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 0.25em;
+}
+
+a {
+  color: #0070c9;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+  font-family: inherit;
+}
